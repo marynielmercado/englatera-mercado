@@ -1,5 +1,7 @@
 const express = require('express');
 const path = require('path');
+const aws = require('aws-sdk');
+const searches = require('./models/searches');
 const { Client } = require('pg');
 //const bootstrap = require('bootstrap');
 const exphbs = require('express-handlebars');
